@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import '../App.css';
+import "../App.css";
 
 class Footer extends Component {
   render() {
-    return (
-  <footer>
-  about us
-  </footer>
-    );
+    return <footer className="app-footer ">about us</footer>;
   }
 }
 
