@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 
-import "../App.css";
+import "../../App.css";
 
-class Footer extends Component {
+export default class Footer extends Component<Props, State> {
   render() {
     return <footer className="app-footer ">about us</footer>;
   }
 }
-
-export default Footer;

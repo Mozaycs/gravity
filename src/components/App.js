@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-import Dashboard from "./Dashboard";
-import Footer from "./Footer";
-import Header from "./Header.js";
+import Dashboard from "./Dashboard/Dashboard";
+import Footer from "./Layout/Footer";
+import Header from "./Layout/Header.js";
 import "../App.css";
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div>
@@ -16,5 +16,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

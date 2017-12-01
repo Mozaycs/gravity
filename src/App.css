@@ -1,6 +1,5 @@
 .app-header {
   display: flex;
-  justify-content: center;
   border: 1px solid gray;
   height: 40px;
   background-color: #385184;
