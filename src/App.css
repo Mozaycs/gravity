@@ -19,7 +19,11 @@
   position: fixed;
   width: 100%;
 }
-
+.profile-button {
+  justify-content: center;
+  align-items: baseline;
+  display: flex;
+}
 .profile-details {
   display: flex;
   justify-content: center;
