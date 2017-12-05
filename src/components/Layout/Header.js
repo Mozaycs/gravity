@@ -13,9 +13,7 @@ export default class Header extends Component<Props, State> {
   render() {
     return (
       <div>
-        <header className="app-header">
-          <button onClick={this.props.studentProfileCallback}>StudentProfile</button>
-        </header>
+        <header className="app-header">StudentProfile</header>
       </div>
     );
   }

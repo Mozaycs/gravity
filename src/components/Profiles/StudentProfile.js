@@ -53,7 +53,7 @@ export default class StudentProfile extends Component<Props, State> {
           <label name="FirstName">FirstName </label>
           <input
             palceholder="First name"
-            value=""
+            value={this.state.firstName}
             onChange={e => this.setState({ firstName: e.target.value })}
           />
         </div>

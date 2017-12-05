@@ -40,13 +40,16 @@
   display: flex;
   justify-content: flex-start;
   float: left;
+  float: left;
+  height: -webkit-fill-available;
+  background: skyblue;
 }
 
 .sidebar ul {
   list-style: none;
 }
 
-.sidebar  li {
+.sidebar li {
   padding-bottom: 30px;
 }
 

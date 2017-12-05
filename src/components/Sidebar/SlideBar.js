@@ -4,11 +4,16 @@ import { Link } from "react-router-dom";
 export default class StudentProfile extends Component<Props, State> {
   props: Props;
 
+  // this.state = {
+  // showStudentProfile: false,
+
+  // };
+
   render() {
     return (
       <ul>
         <li>
-          <button>StudentProfile</button>
+          <a> StudentProfile</a>
           {/* <Link to="">StudentProfile</Link> */}
         </li>
         <li>
