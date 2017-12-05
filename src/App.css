@@ -19,3 +19,17 @@
   position: fixed;
   width: 100%;
 }
+
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 5px;
+  margin: 5px;
+
+  
+}
+
+.profile-details label {
+  padding-right: 8px;
+}
