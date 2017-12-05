@@ -7,10 +7,12 @@ export default class Dashboard extends Component<Props, State> {
   render() {
     return (
       <div className="dashboard-content">
-        <div>
+        <div className="sidebar">
           <SlideBar />
         </div>
-        <StudentProfile />
+        <div className="profile-content">
+          <StudentProfile />
+        </div>
       </div>
     );
   }

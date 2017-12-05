@@ -30,10 +30,31 @@
   align-items: baseline;
   padding: 5px;
   margin: 5px;
-
-  
 }
 
 .profile-details label {
   padding-right: 8px;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar  li {
+  padding-bottom: 30px;
+}
+
+.sidebar :hover {
+  color: red;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: center;
 }

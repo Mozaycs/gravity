@@ -6,19 +6,20 @@ export default class StudentProfile extends Component<Props, State> {
 
   render() {
     return (
-      <div>
-        <ul>
-          <li>
-            <Link>StudentProfile</Link>
-          </li>
-          <li>
-            <Link>Parent Profile</Link>
-          </li>
-          <li>
-            <Link>About us</Link>
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <button>StudentProfile</button>
+          {/* <Link to="">StudentProfile</Link> */}
+        </li>
+        <li>
+          Parent Profile
+          {/* <Link to="">Parent Profile</Link> */}
+        </li>
+        <li>
+          About us
+          {/* <Link to="">About us</Link> */}
+        </li>
+      </ul>
     );
   }
 }
