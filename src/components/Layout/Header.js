@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 // import StudentProfile from "../Profiles/StudentProfile";
-import "../../App.css";
 
 type Props = {
   studentProfileCallback: Function
